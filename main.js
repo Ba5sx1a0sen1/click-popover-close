@@ -1,0 +1,9 @@
+button.addEventListener('click',function(e){
+    popper.classList.add('active')
+})
+component.addEventListener('click',function(e){
+    e.stopPropagation()
+})
+document.addEventListener('click',function(){
+    popper.classList.remove('active')
+})
